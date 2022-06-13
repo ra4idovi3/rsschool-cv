@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Curriculum vitae</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code_example" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#language" class="nav-link">Languages</a>
+            </li>
+          </ul>
+          <div class="hamburger-menu ">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="contacts">
+          <img
+            src="images/avatar.jpg"
+            class="avatar img-profile"
+            alt="Аватар"
+          />
+          <h1 class="section-title">Alexander Shportak</h1>
+          <h3>Frontend Junior Developer</h3>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="tel:+79630885048" class="social-link"
+                ><img src="icons/phone.png" alt="" class="social-img"
+              /></a>
+            </li>
+            <li class="social-list__item">
+              <a href="mailto:al.shportak@gmail.com" class="social-link"
+                ><img src="icons/mail.png" alt="" class="social-img"
+              /></a>
+            </li>
+            <li class="social-list__item">
+              <a href="www.linkedin.com/in/alshportak" class="social-link"
+                ><img src="icons/linkedin.png" alt="" class="social-img"
+              /></a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://t.me/ra4idovi3" class="social-link"
+                ><img src="icons/telegram.png" alt="" class="social-img"
+              /></a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="about">
+          <h2 class="section-title">About Me</h2>
+          <p class="about">
+            I am the head bartender at a local bar. I am trying to change my
+            profession, as I am interested of computer science. I have
+            experience in people management and teamwork experience. I like to
+            learn new things and study modern technologies.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="list-skills">
+            <li class="list-skills_item">HTML</li>
+            <li class="list-skills_item">CSS/SASS</li>
+            <li class="list-skills_item">JS (Basic)</li>
+            <li class="list-skills_item">Git</li>
+            <li class="list-skills_item">VSCode, Sublime Text</li>
+            <li class="list-skills_item">Figma, Photoshop, Avacode</li>
+          </ul>
+        </section>
+        <section class="section" id="code_example">
+          <h2 class="section-title">Code Example</h2>
+          <h3>Codewars <a href="https://www.codewars.com/kata/52fba66badcd10859f00097e">Disemvowel Trolls</a>  on JavaScript:</h3>
+          <p class="code">
+            <pre>function highAndLow(numbers){
+    let arr = numbers.split(' ').map(el => Number(el));
+    return Math.max.apply(null,arr) + ' ' + Math.min.apply(null,arr);
+    }</pre>
+          </p>
+        </section>
+        <section class="section" id="experience">
+          <h2 class="section-title">Experience</h2>
+          <b>Projects:</b>
+          <ul>
+            <li><a class="portfolio-link" href="https://rolling-scopes-school.github.io/ra4idovi3-JSFEPRESCHOOL/portfolio/">Portfolio</a></li>
+            <li><a class="portfolio-link" href="https://rolling-scopes-school.github.io/ra4idovi3-JSFEPRESCHOOL/js30-1.2-audio-player/">Audio Player</a></li>
+            <li><a class="portfolio-link" href="https://rolling-scopes-school.github.io/ra4idovi3-JSFEPRESCHOOL/js30-6/">Video Search API</a></li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <b>Courses:</b>
+          <ul>
+            <li>HTML, CSS, and Javascript for Web Developers on Coursera</li>
+            <li>Udemy Courses for Web-developer</li>
+            <li>JS/FE PRE-SCHOOL 2022(JAVASCRIPT)</li>
+          </ul>
+        </section>
+        <section class="section" id="language">
+          <h2 class="section-title">English</h2>
+          <p>Elementary (A2)</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-list__name">
+            <a href="https://rs.school/js/">
+              <img
+                src="icons/rs_school_js.svg"
+                alt=""
+                class="footer-list__img footer-list__img__rs"
+            /></a>
+          </li>
+          <li class="footer-list__name">
+            <a href="https://rs.school/js/">
+              <img src="icons/github.png" alt="" class="footer-list__img"
+            /></a>
+          </li>
+          <li class="footer-list__name">First time developed in 2022</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
